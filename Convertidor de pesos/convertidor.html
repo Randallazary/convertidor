@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Convertir peso a dólar</h1>
+  <table>
+      <tr>
+          <td><label for="cantidad">Cantidad en pesos:</label></td>
+          <td><input type="number" id="cantidad" required></td>
+      </tr>
+      <tr>
+          <td><label for="convertirDolar">Valor del dólar:</label></td>
+          <td><input type="number" id="convertirDolar"></td>
+      </tr>
+      <tr>
+          <td><label for="resultado">Resultado en dólares:</label></td>
+          <td><h3 id="resultado"></h3></td>
+      </tr>
+      <tr>
+          <td colspan="2">
+              <button id="buttonConvertir">Convertir</button>
+              <button onclick="limpiarFormulario()">Limpiar</button>
+          </td>
+      </tr>
+  </table>
+<h1>Convertir dólar a peso</h1>
+  <table>
+      <tr>
+          <td><label for="convertirDolar2">Cantidad en dólares:</label></td>
+          <td><input type="number" id="convertirDolar2"></td>
+      </tr>
+      <tr>
+          <td><label for="cantidad2">Valor del peso:</label></td>
+          <td><input type="number" id="cantidad2" required></td>
+      </tr>
+      <tr>
+          <td><label for="resultado2">Resultado en pesos:</label></td>
+          <td><h3 id="resultado2"></h3></td>
+      </tr>
+      <tr>
+          <td colspan="2">
+              <button id="buttonConvertir2">Convertir</button>
+              <button onclick="limpiarFormulario2()">Limpiar</button>
+          </td>
+      </tr>
+  </table>
+
+    <script src="convertior2.js"></script>
+  
+</body>
+</html>
